@@ -1,0 +1,15 @@
+print('-------------')
+print('    ตรวจสอบสภาพรถ')
+print('-------------')
+car_owener = input('ป้อนชื่อเจ้าของรถ')
+car_number = input('ป้อนทะเบียนรถ')
+car_carbon = float(input('ป้อนปริมาณก๊าซคาร์บอนไดซ์ออกไซน์'))
+print('------------------------------')
+if car_carbon > 678.55 : 
+    print(f'ทะเบียนรถ{car_number} ของคุณ {car_owener} ไม่ผ่านเกณฑ์ ')
+    print('รถทะเบียน {} ของคุณ {} ไม่ผ่านเกณฑ์',format(car_number,car_owener))
+else : 
+    print(f'ทะเบียนรถ {car_number} ของคุณ {car_owener} ผ่านเกณฑ์')
+    print('รถทะเบียน {} ของคุณ {} ไม่ผ่านเกณฑ์',format(car_number,car_owener))
+print('--------------------------------------')
+print('ขอขอบคุณค่ะ')
